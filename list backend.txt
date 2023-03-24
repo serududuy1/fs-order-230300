@@ -1,0 +1,7 @@
+List bagian adminstrator :
+
+- CRUD kamar hotel 
+- CRUD Fasilitas kamar dan hotel 
+- CRUD pelanggan                   ==========> DONE
+- CRUD Bank pemilik hotel ===========> DONE
+- CRUD booking hotel ============> DONE
