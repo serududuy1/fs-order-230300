@@ -33,7 +33,7 @@
               <td><%= item[i].country %></td>
               <td><%= item[i].city %></td>
               <td>
-                <% if(user.role == 'guest2') { %>
+                <% if(user.role == 'admin') { %>
                 <form
                   action="/admin/item/<%= item[i].id %>/delete?_method=DELETE"
                   method="POST"
@@ -56,11 +56,11 @@
                   </button>
                 </form>
                 <% } %>
-                <!-- <a
+                <a
                   href="/admin/item/show-detail-item/<%= item[i].id %>"
                   class="btn btn-success btn-circle btn-sm"
                   ><i class="fas fa-plus"></i
-                ></a> -->
+                ></a>
               </td>
             </tr>
             <% } %>
